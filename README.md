@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 
 * Clone the project to your local machine.
 * Open the project in your preferred IDE or text editor.
-* Run install i to install the required dependencies.
+* Run npm install or i to install the required dependencies.
 
 <hr/>
 
