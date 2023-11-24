@@ -1,11 +1,11 @@
 
 # Design Decision:  
 
-1- Component-Based Setup: The website is built by breaking it into smaller sections called components, like people, vehicles, species, etc. This helps in reusing code and keeping things organized.
+1- Component-Based: The website is built by breaking it into smaller sections called components, like people, vehicles, species, etc. This helps in reusing code and keeping things organized.
 
-2- Adaptable Design with Material-UI: The site is designed to work well on all devices—phones, tablets, computers—using Material-UI. This ensures everyone gets a smooth experience no matter what device they use.
+2- Adaptive Design: The site is designed to work well on all devices—phones, tablets, computers—using Material-UI.
 
-3- Styling Choices: Styling is done using Bootstrap for the cards and CSS modules for other elements, including media queries for responsive design. This mix helps make things look good and work well on different screen sizes.
+3- Styling Choices: Styling uses Bootstrap for the cards and CSS modules for other elements, including media queries for responsive design. 
 
 4- Efficient Data Handling: Each section gets its data using a smart technique called the useEffect hook. This means data is fetched only when needed, reducing unnecessary calls to the server and making things run faster.
 
