@@ -85,43 +85,41 @@ const Card = ({ details }) => {
       </div>
       <div className={styles.details}>
         <div className={styles.leftDiv} onClick={setCard}>
-          <img src="./reel.png" className={styles.reel}></img>
-          <span style={{backgroundColor: "#cb1a80"}}>{details.title}</span>
+          <img src="./reel.png" alt="" className={styles.reel}></img>
+          <span style={{backgroundColor: "#4e4b4e"}}>{details.title}</span>
         </div>
-        <img
-          src="./threedot.png"
+        <img src="./threedot.png"
           className={`${styles.more} dropdown-toggle`}
           data-bs-toggle="dropdown"
-          aria-expanded="false"
-        ></img>
+          aria-expanded="false" alt="" ></img>
         <ul className={`dropdown-menu ${styles.bgCol}`}>
           <li>
-            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="#">
+            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="# ">
               <img src="./view.png" style={{backgroundColor:"white"}}></img>View
             </a>
           </li>
           <li>
-            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="#">
+            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="# ">
               <img src="./download.png" style={{backgroundColor:"white"}}></img>Download
             </a>
           </li>
           <li>
-            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="#">
+            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="# ">
               <img src="./rename.png" style={{backgroundColor:"white"}}></img>Rename
             </a>
           </li>
           <li>
-            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="#">
+            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="# ">
               <img src="./share.png" style={{backgroundColor:"white"}}></img>Share link
             </a>
           </li>
           <li>
-            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="#">
+            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="#" >
               <img src="./move.png" style={{backgroundColor:"white"}}></img>Move
             </a>
           </li>
           <li>
-            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="#">
+            <a className={`dropdown-item ${styles.menuItem} ${styles.bgCol}`} href="# ">
               <img src="./markprivate.png"style={{backgroundColor:"white"}}></img>Mark private
             </a>
           </li>
@@ -129,7 +127,7 @@ const Card = ({ details }) => {
             <a
               className={`dropdown-item ${styles.delete} ${styles.menuItem} ${styles.bgCol}`}
               data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
+              data-bs-target="#exampleModal" href="# "
             >
               <img src="./delete.png" style={{backgroundColor:"white"}}></img>Delete
             </a>

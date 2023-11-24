@@ -40,7 +40,7 @@ gap:5px;
     width: 100%;
     min-height: 40px;
     padding: 0 10px;
-    background-color: #cb1a80;
+    background-color: #4e4b4e;
 }
 
 .leftDiv {
@@ -48,16 +48,16 @@ gap:5px;
     color: rgb(232, 213, 213);
    gap: 10px;
    align-items: center;
-   background-color: #cb1a80;
+   background-color: #4e4b4e;
 }
 .reel {
     width: 20px;
-    background-color: #cb1a80;
+    background-color: #4e4b4e;
 }
 .more {
     width: 20px;
     z-index: 8;
-    background-color: #cb1a80;
+    background-color: #4e4b4e;
 }
 .more:hover {
     transform: scale(1.1);
@@ -224,7 +224,7 @@ gap:5px;
     flex:1;
     margin: 10px;
     padding: 10px;
-    background-color: #cb1a80;
+    background-color: #4e4b4e;
     color: white;
 }
 
