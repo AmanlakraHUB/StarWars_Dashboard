@@ -3,7 +3,7 @@
 
 1- Component-Based Setup: The website is built by breaking it into smaller sections called components, like people, vehicles, species, etc. This helps in reusing code and keeping things organized.
 
-2- Adaptable Design with Material-UI: The site is designed to work well on all devices—phones, tablets, computers—using Material-UI. This makes sure everyone gets a smooth experience no matter what device they're using.
+2- Adaptable Design with Material-UI: The site is designed to work well on all devices—phones, tablets, computers—using Material-UI. This ensures everyone gets a smooth experience no matter what device they use.
 
 3- Styling Choices: Styling is done using Bootstrap for the cards and CSS modules for other elements, including media queries for responsive design. This mix helps make things look good and work well on different screen sizes.
 
@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 
 * Clone the project to your local machine.
 * Open the project in your preferred IDE or text editor.
-* Run intall i to install the required dependencies.
+* Run install i to install the required dependencies.
 
 <hr/>
 
